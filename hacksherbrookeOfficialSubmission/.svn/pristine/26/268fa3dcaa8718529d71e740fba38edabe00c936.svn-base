@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#1cc473">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Distance"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30pt" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:textSize="20pt"
+            android:text="1km                 10km"
+            android:textColor="#faf9f9"
+            android:background="#5db6f1" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:paddingBottom="25dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/switchToHome"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:background="#5db6f1"
+            android:textSize="15pt" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:id="@+id/apply"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:background="#5db6f1"
+            android:textSize="15pt" />
+
+    </TableLayout>
+
+
+</LinearLayout>
